@@ -12,7 +12,7 @@ const PRODUCTS = [
     name: "Jabón de Avena y Miel",
     price: "S/ 18.00",
     color: "#fbbf24", // Amarillo miel
-    image: "public/img/IMG_20251128_085044.jpg",
+    image: "img/IMG_20251128_085044.jpg",
     description:
       "Ideal para pieles sensibles, este jabón nutre e hidrata profundamente, dejando la piel suave y radiante.",
     ingredients: [
@@ -31,7 +31,7 @@ const PRODUCTS = [
     name: "Jabón de Lavanda y Karité",
     price: "S/ 20.00",
     color: "#a78bfa", // Morado lavanda
-    image: "public/img/IMG_20251128_085059.jpg",
+    image: "img/IMG_20251128_085059.jpg",
     description:
       "Jabón artesanal con lavanda calmante y karité nutritiva. Ideal para pieles sensibles, relaja e hidrata profundamente.",
     ingredients: [
@@ -50,7 +50,7 @@ const PRODUCTS = [
     name: "Jabón de Rosas y Argán",
     price: "S/ 25.00",
     color: "#fb7185", // Rosado
-    image: "public/img/IMG_20251128_085121.jpg",
+    image: "img/IMG_20251128_085121.jpg",
     description:
       "Jabón artesanal de lujo con rosas y argán rejuvenecedor. Limpia suavemente, dejando la piel radiante e hidratada.",
     ingredients: [
@@ -102,7 +102,7 @@ export default function App() {
           {/* LOGO */}
           <div className="flex items-center gap-3">
             <img
-              src="public/img/IMG_20251128_081041.png"
+              src="img/IMG_20251128_081041.png"
               alt="Logo NATURAL BEAUTY"
               className="w-10 h-10 sm:w-12 sm:h-12 object-cover rounded-full shadow"
             />
@@ -219,7 +219,7 @@ export default function App() {
           <div className="flex items-center justify-center">
             <div className="w-full max-w-sm sm:max-w-md rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:scale-105 transition">
               <img
-                src="public/img/file_000000003cb8720e907768b328fb011f.png"
+                src="img/file_000000003cb8720e907768b328fb011f.png"
                 alt="Jabones NATURAL BEAUTY"
                 className="w-full h-64 sm:h-80 object-cover"
               />
@@ -291,7 +291,7 @@ export default function App() {
 
             <div className="flex items-center gap-3">
               <img
-                src="public/img/IMG_20251128_081041.png"
+                src="img/IMG_20251128_081041.png"
                 alt="Logo NATURAL BEAUTY"
                 className="w-10 h-10 object-cover rounded-full shadow"
               />
